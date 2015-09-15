@@ -1,1 +1,5 @@
-<p>This is the partial for view 1.</p>
+<h3>{{city}}</h3>
+<p>{{weather.currently.temperature | number:0}}<span ng-show="weather.currently.temperature">&#176</span></p>
+<input type="text" ng-model="weatherLocation"/>
+<button class="btn btn-primary small" ng-click="getLocation(weatherLocation)">Find</button>
+
