@@ -1,0 +1,9 @@
+body {
+    background: url("../images/powerful-storm-weather.jpg");
+    background-size: cover;
+    background-position: 50% 40%;
+    color: #999;
+}
+.dark {
+    background-color: #222;
+}
